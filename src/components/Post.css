@@ -1,0 +1,32 @@
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px;
+  border-bottom: 3px solid whitesmoke;
+  cursor: pointer;
+
+  opacity: 1;
+}
+.post:hover {
+  opacity: 0.8;
+}
+.post__avatar {
+  height: 31px !important;
+  width: 31px !important;
+}
+.post__readIcon {
+  color: #ed4b55;
+}
+.post__info {
+  padding-left: 8px;
+  flex: 1;
+}
+
+.post__info > h4 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.post__info > p {
+  font-size: 10px;
+}
